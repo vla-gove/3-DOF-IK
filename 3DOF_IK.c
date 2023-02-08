@@ -36,7 +36,7 @@ void calc_inverse_kinematics(struct robot_manipulator* manipulator) {
 }
 
 int main() {
-    // Create a manipulator instance
+    // create a robot manipulator instance
     struct robot_manipulator manipulator;
     manipulator.num_joints = 3;
     printf("Insert end effector's X coordinate:");
